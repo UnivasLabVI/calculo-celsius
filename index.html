@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Calculadora de Celsius para Fahreiheit</title>
+
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<section class="container">
+	<form class="form">
+		<fieldset>
+			<legend>Conversor de Temperatura</legend>
+			<label>
+				Celsius
+				<input id="celsius" type="text" placeholder="75" required="required" />
+			</label>
+			<button>Calcular</button>
+		</fieldset>
+	</form>
+	
+	<div class="content-result">
+		<span class="label">Fahreiheit Calculado</span>
+		<span class="result">0.00</span>
+	</div>
+</section>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/CelsiusService.js"></script>
+<script src="asset/js/CelsiusController.js"></script>
+
+</body>
+</html>
